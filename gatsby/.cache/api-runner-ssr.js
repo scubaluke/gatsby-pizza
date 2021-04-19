@@ -1,4 +1,13 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/lukegartland/WebDev/master-gatsby/starter-files/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/lukegartland/WebDev/master-gatsby/starter-files/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"k0q8gy9q","dataset":"production","watchMode":true,"token":"skIQZyaaMJ1f9aaQyPnSDFiBbkEbzOrd6l3WnraoDfZ0CdOb0Aaa9ksmWljTQuF1u9Etfjlw9InuJhti88rCWH9TKwmssGl1m8jBBLgx3UDkNATZsVrCPMbeIw97zBQd3IpsKroTiwQ1vPhpuhMgUdOV7iflTdWI9b3Ooj6SNEomlBXp11QU"},
+    },{
+      plugin: require('/Users/lukegartland/WebDev/master-gatsby/starter-files/gatsby/gatsby-ssr'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
